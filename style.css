@@ -3,3 +3,57 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+
+  text-align: center;
+}
+
+/* logo */
+h1 {
+  text-align: center;
+}
+
+/* navigation */
+nav a {
+  text-align: center;
+  padding-left: 10px; 
+  padding-right: 10px;
+  background-color: aqua;
+  
+}
+
+
+/* image alignment center */
+
+img {
+display: block;
+margin: auto;
+
+}
+
+/* figcaption */
+
+figcaption {
+text-align: center;
+}
+
+/* align paragraph */
+
+#featured-property > p {
+
+  width: 800px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-indent: 100px;
+  flex-wrap: wrap;
+}
+
+#details > div {
+float: left;
+width: 25%;
+text-align: center;
+background-color: blue;
+margin-bottom: 30px;
+
+}
